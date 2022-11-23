@@ -1,0 +1,6 @@
+a, b, c = map(int, input().split())
+i = 0
+for num in range(a, b+1):
+    if c % num == 0:
+        i += 1
+print(i)
