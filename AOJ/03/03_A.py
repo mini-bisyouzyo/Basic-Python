@@ -1,6 +1,2 @@
-num = 0
-while True:
+for i in range(1000):
     print('Hello World')
-    num +=1
-    if num == 1000:
-        break
